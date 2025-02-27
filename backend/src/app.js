@@ -27,4 +27,7 @@ import cartRouter from "./routes/cart.routes.js"
 
 app.use("/api/v1/cart", cartRouter)
 
+import bookTableRouter from "./routes/bookTable.routes.js"
+app.use("/api/v1/bookTable", bookTableRouter)
+
 export {app}
